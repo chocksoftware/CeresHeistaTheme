@@ -1,0 +1,18 @@
+{
+    "name"                  :"CeresHeistaTheme",
+    "description"           :"Basic theme plugin",
+    "namespace"             :"CeresHeistaTheme",
+    "author"                :"Edgart Keil",
+    "keywords"              : ["theme", "Ceres", "template", "Edgart Keil", "Heiko Stämmler", "Heista", "Heista.de"],
+    "type"                  :"theme",
+    "require"               : [],
+    "serviceProvider"       :"CeresHeistaTheme\\Providers\\ThemeServiceProvider",
+    "dataProviders"         :
+    [
+        {
+            "key"           :"CeresHeistaTheme\\Containers\\ThemeContainer",
+            "name"          :"Dark background",
+            "description"   :"Change the background colour of the Ceres template"
+        }
+    ]
+}
